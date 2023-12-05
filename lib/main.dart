@@ -85,11 +85,21 @@ class _MyAppState extends State<MyApp> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("player 1"),
+                Text(
+                  "player 1",
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 35,
+                      color: Colors.orange),
+                ),
                 SizedBox(
                   width: 30,
                 ),
-                Text("player 2")
+                Text("player 2",
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 35,
+                        color: Colors.orange))
               ],
             ),
             Center(
