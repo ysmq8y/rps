@@ -122,9 +122,9 @@ class _MyAppState extends State<MyApp> {
                     child: Text(
                       "play",
                       style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 35,
-                      ),
+                          fontWeight: FontWeight.bold,
+                          fontSize: 35,
+                          color: Colors.white),
                     )))
           ],
         )),
